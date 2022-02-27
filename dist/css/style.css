@@ -256,11 +256,11 @@ p {
 
   .header .display-4 {
     font-size: 40px;
-    text-align: center;
+    text-align: left;
   }
 
   .header p {
-    text-align: center;
+    text-align: left;
   }
 
   .header img {
@@ -392,6 +392,7 @@ p {
     right: 60px;
     filter: opacity(50%);
     -webkit-filter: opacity(50%);
+    width: 250px;
   }
 
   .content .content-box img {
@@ -405,6 +406,11 @@ p {
 
   .sub-content {
     height: 40vh;
+  }
+
+  .pengumuman {
+    padding-top: 60px;
+    padding-bottom: 50px;
   }
 
   .pengumuman .pengumuman-box p {
