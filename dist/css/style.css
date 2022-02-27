@@ -357,7 +357,7 @@ p {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 220px;
+    height: 200px;
     transform: rotateY(180deg);
   }
 
@@ -371,14 +371,17 @@ p {
 
   .header {
     position: relative;
+    /* height: 80vh; */
   }
 
   .header .jumbotron .display-4 {
+    padding-left: 30px;
     position: relative;
     z-index: 3;
   }
 
   .header .jumbotron p {
+    padding-left: 30px;
     position: relative;
     z-index: 3;
   }
