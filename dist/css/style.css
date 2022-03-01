@@ -48,10 +48,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 p {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation-bar{
+  background-color: #780000;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 
 .header {
@@ -254,6 +262,10 @@ p {
     fill: #780000;
   }
 
+  .navigation-bar .navbar .navbar-nav .nav-item{
+    text-align: center;
+  }
+
   .header .display-4 {
     font-size: 40px;
     text-align: left;
@@ -407,6 +419,10 @@ p {
   .sub-content {
     height: 40vh;
   }
+
+  .pemakai .pemakai-box .img-pemakai {
+  width: 150px;
+}
 
   .pengumuman {
     padding-top: 60px;
